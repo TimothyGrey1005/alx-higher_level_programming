@@ -2,11 +2,9 @@
 import random
 number = 98
 digit = abs(number) % 10
-if number < 0:
-    digit = -digit
-    print("Last digit of {} is {} and is greater than 5".format(number, digit), end="")
+
 if digit > 5:
-    print("greater than 5")
+    print("Last digit of {} is {} and is greater than 5".format(number, digit), end="")
 elif digit == 0:
     print("0")
 else:
