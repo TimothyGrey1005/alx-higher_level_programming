@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 import random
-number = 98
+number = random.randint(-98;98)
 digit = abs(number) % 10
 
+if number < 0:
+    digit = -digit
 if digit > 5:
     print("Last digit of {} is {} and is greater than 5".format(number, digit), end="")
 elif digit == 0:
