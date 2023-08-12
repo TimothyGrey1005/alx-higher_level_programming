@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-from calculator_1 import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
     import sys
+    """Handle basic arithmetic operations."""
 
 if __name__ == "__main__":
-    """Handle basic arithmetic operations."""
 
     if len(sys.argv) - 1 != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
