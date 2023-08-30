@@ -1,0 +1,1 @@
+In this project, I started learning object-oriented programming in Python. I studied classes, objects, attributes, methods, and properties. I also understood data abstraction, encapsulation, and information hiding.
